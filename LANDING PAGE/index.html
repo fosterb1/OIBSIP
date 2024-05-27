@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" />
+  <title>Voyage Vista</title>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <section class="nav-bar">
+    <img src="images/7.png" alt="Logo" class="logo" />
+    <div class="company">Voyage Vista</div>
+    <ul class="menu">
+      <li><a href="#banner"><strong>Home</strong></a></li>
+      <li><a href="#tours"><strong>Tours</strong></a></li>
+      <li><a href="#package"><strong>Package</strong></a></li>
+      <li><a href="#blog"><strong>Blog</strong></a></li>
+      <li><a href="#about-us"><strong>About Us</strong></a></li>
+      <li><a href="#contact"><strong>Contact Us</strong></a></li>
+    </ul>
+  </section>
+
+  <!-- Placeholder for parallax effect -->
+  <div class="parallax-placeholder"></div>
+
+  <!-- Banner -->
+  <section id="banner" class="banner">
+    <div class="banner-text-item">
+      <div class="banner-heading">
+        <h1>Find your Next tour!</h1>
+      </div>
+      <form class="form">
+        <input type="text" list="mylist" placeholder="Where would you like to go?">
+        <datalist id="mylist">
+          <option>London</option>
+          <option>Canada</option>
+          <option>Monaco</option>
+          <option>Japan</option>
+          <option>Switzerland</option>
+          <option>Seoul</option>
+          <option>France</option>
+        </datalist>
+        <input type="date" class="date">
+        <a href="#" class="book">book</a>
+      </form>
+    </div>
+  </section>
+
+
+
+  <!-- Tours -->
+  <div data-aos="fade-down">
+    <section id="tours" class="toursheader">
+      <h3>Tours</h3>
+      <hr />
+    </section>
+
+
+    <section class="tours">
+
+      <div class="tour">
+        <img src="images/france.png" alt="France">
+        <h2>France</h2>
+        <p>Stroll hand in hand through Paris' enchanting streets, where every corner whispers tales of love.</p>
+      </div>
+      <div class="tour">
+        <img src="images/canada.png" alt="canada">
+        <h2>Canada</h2>
+        <p>Architectural Marvels, Serene Landscapes Abound.</p>
+      </div>
+      <div class="tour">
+        <img src="images/monaco.png" alt="monaco">
+        <h2>Monaco</h2>
+        <p>Opulent Charm, Riviera Elegance Beckons.</p>
+      </div>
+      <div class="tour">
+        <img src="images/japan.png" alt="JAPAN">
+        <h2>Japan</h2>
+        <p>Discover the serenity of Kyoto's traditional streets.</p>
+      </div>
+      <div class="tour">
+        <img src="images/switzerland.png" alt="Switzerland">
+        <h2>switzerland</h2>
+        <p>Explore Switzerland's enchanting blend of natural wonders and cultural delights.</p>
+      </div>
+      <div class="tour">
+        <img src="images/seoul.png" alt="Seoul">
+        <h2>Seoul</h2>
+        <p>Embark on a Seoulful journey through the heart of South Korea's bustling streets.</p>
+      </div>
+
+    </section>
+  </div>
+
+
+
+
+  <!-- Services -->
+  <div data-aos="flip-up">
+    <section class="services">
+      <h2>Services</h2>
+      <div class="service-card">
+        <h3>Flight Booking</h3>
+        <p>Book your flights with us!</p>
+        <a href="#contact" class="next-arrow">→</a>
+
+      </div>
+      <div class="service-card">
+        <h3>Hotel Reservations</h3>
+        <p>Find the perfect accommodation for your trip.</p>
+        <a href="#contact" class="next-arrow">→</a>
+
+      </div>
+      <div class="service-card">
+        <h3>Tour Guide</h3>
+        <p>"Explore, Discover, and Experience with Our Expert Tour Guides!"</p>
+        <a href="#contact" class="next-arrow">→</a>
+
+      </div>
+
+
+    </section>
+  </div>
+
+
+
+
+
+  <!--Blog section-->
+  <div data-aos="fade-right">
+    <section id="blog" class="blog">
+
+      <img src="images/bali-blog.png" alt="blog1">
+      <article class="blog-post">
+
+
+
+        <h2>Exploring the Hidden Gems of Bali</h2>
+        <p>Bali, Indonesia's crown jewel, harbors secrets beyond the tourist hotspots. In Sidemen village, time slows
+          amidst rice fields and warm smiles. Adventure-seekers find thrills in jungle treks and river rafting, while
+          beneath the waves, vibrant coral gardens beckon. As dusk falls, coastal towns awaken with lively nightlife.
+          Bali's allure lies in its hidden treasures, inviting you to explore beyond the ordinary. Bali, Indonesia's
+          crown
+          jewel, harbors secrets beyond the tourist hotspots. In Sidemen village, time slows amidst rice fields and
+          warm
+          smiles. Adventure-seekers find thrills in jungle treks and river rafting, while beneath the waves, vibrant
+          coral
+          gardens beckon. As dusk falls, coastal towns awaken with lively nightlife, offering a tapestry of music and
+          flavors. Bali's allure lies in its hidden treasures, inviting you to explore beyond the ordinary and
+          discover
+          the magic that awaits around every corner.</p>
+        <a href="blog-post1.html">Read more</a>
+      </article>
+
+    </section>
+  </div>
+
+  <div data-aos="fade-left">
+    <section class="blog">
+
+      <article class="blog-post">
+
+        <h2>Unveiling Paris Beyond the Icons</h2>
+        <p>Paris, the City of Light, holds hidden treasures beyond its famed landmarks. Montmartre's cobblestone streets
+          exude artistic charm, while local bistros in the Marais district offer authentic culinary delights. Escape to
+          tranquil parks like Parc des Buttes-Chaumont for moments of serenity. As night falls, immerse yourself in
+          Parisian nightlife, from underground jazz clubs to chic rooftop bars. Every corner reveals a story waiting to
+          be
+          discovered, inviting you to embrace the city's timeless allure. Paris is not just a destination; it's an
+          enchanting experience, beckoning you to explore, discover, and fall in love anew with each passing moment.</p>
+        <a href="blog-post2.html">Read more</a>
+      </article>
+      <img src="images/paris-blog.png" alt="blog1">
+
+    </section>
+  </div>
+
+  <!-- packages section -->
+  <div data-aos="zoom-in">
+    <div class="package" id="package">
+      <div class="image-container">
+        <img src="images/burj al arab-dubai.png" alt="Package Image">
+        <div class="overlay">
+          <div class="package-details">
+            <h3>Burj Al Arab-Dubai</h3>
+            <p>Includes:</p>
+            <ul>
+              <li>One-week hotel reservation.</li>
+              <li>Flight Ticket.</li>
+
+            </ul>
+            <div class="price-tag">$3,000.00</div>
+            <button class="order-button">Order Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-container">
+        <img src="images/Cloud Gate-Chicago.png" alt="Package Image">
+        <div class="overlay">
+          <div class="package-details">
+            <h3>Cloud Gate-Chicago</h3>
+            <p>Includes:</p>
+            <ul>
+              <li>One-week hotel reservation.</li>
+              <li>Flight Ticket.</li>
+            </ul>
+            <div class="price-tag">$2,800.00</div>
+            <button class="order-button">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="images/Haifa-Isreal.png" alt="Package Image">
+        <div class="overlay">
+          <div class="package-details">
+            <h3>Haifa-Isreal</h3>
+            <p>Includes:</p>
+            <ul>
+              <li>One-week hotel reservation.</li>
+              <li>Flight Ticket.</li>
+            </ul>
+            <div class="price-tag">$4,000.00</div>
+            <button class="order-button">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="images/Levanto-Italy.png" alt="Package Image">
+        <div class="overlay">
+          <div class="package-details">
+            <h3>Levanto-Italy</h3>
+            <p>Includes:</p>
+            <ul>
+              <li>One-week hotel reservation.</li>
+              <li>Flight Ticket.</li>
+            </ul>
+            <div class="price-tag">$2,600.00</div>
+            <button class="order-button">Order Now</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Contact section -->
+<div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+
+  <section id="contact" class="contact">
+
+    <img src="images/contact-flight.png" alt="contact-flight" class="contact-flight" />
+    <div class="containerX">
+      <h2>Contact Us</h2>
+      <form action="action_page.php" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email..">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message.." rows="4"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+  </section>
+</div>
+
+  <!--About-Us section-->
+<div data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+
+  <div class="about-us" id="about-us">
+    <h1>About Us</h1>
+    <p>At <strong>Voyage Vista</strong>, our passion for exploration knows no bounds. Since our founding in
+      <strong>2023</strong>, we've been dedicated to curating extraordinary travel experiences that leave a lasting
+      imprint on the hearts of our clients.
+    </p>
+    <div class="team">
+      <div class="team-member">
+        <img src="images/foster.jpg" alt="b.foster">
+        <p><strong>B.Foster "The Trailblazer"</strong><br>Founder and fearless leader</p>
+      </div>
+      <div class="team-member">
+        <img src="images/prince.jpg" alt="o.prince">
+        <p><strong>O.Prince "The Storyteller"</strong><br>Resident wordsmith</p>
+      </div>
+      <div class="team-member">
+        <img src="images/gloria.jpg" alt="gloria">
+        <p><strong>Gloria "The Navigator"</strong><br>Armed with maps and a penchant for spontaneity</p>
+      </div>
+      <div class="team-member">
+        <img src="images/ogidi.jpg" alt="ogidi">
+        <p><strong>B.Gideon "The Connector"</strong><br>Bridges cultures and fosters connections</p>
+      </div>
+    </div>
+    <p><strong>From luxury escapes to off-the-beaten-path expeditions, we offer a kaleidoscope of travel
+        services:</strong></p>
+    <ul>
+      <li>Tailored Itineraries</li>
+      <li>Visa Assistance</li>
+      <li>24/7 Support</li>
+    </ul>
+    <p><strong>What Sets Us Apart:</strong></p>
+    <ul>
+      <li>Community Commitment: We believe in responsible travel.</li>
+      <li>Client Love: Don't take our word for it—our clients speak volumes.</li>
+    </ul>
+    <div class="cta-button">
+      <a href="#contact">Get in Touch</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+    </div>
+    <div class="copyright">
+      <p>&copy; Voyage Vista 2024. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <script>
+    // Smooth scroll functionality
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
